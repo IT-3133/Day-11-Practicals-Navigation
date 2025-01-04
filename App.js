@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import Home from "./components/Home";
 import ContactUs from "./components/ContactUs";
+import AboutUs from "./components/AboutUs";
 
 export default function App() {
   const Stack = createNativeStackNavigator();
@@ -20,12 +21,17 @@ export default function App() {
           <Stack.Screen
             name="home"
             component={Home}
-            options={{ title: "welcome" }}
+            options={{ title: "Welcome Home" }}
           ></Stack.Screen>
           <Stack.Screen
             name="contact"
             component={ContactUs}
             options={{ title: "Contactus" }}
+          ></Stack.Screen>
+          <Stack.Screen
+            name="aboutus"
+            component={AboutUs}
+            options={{ title: "Aboutus" }}
           ></Stack.Screen>
         </Stack.Navigator>
       </NavigationContainer>
