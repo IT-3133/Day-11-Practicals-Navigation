@@ -9,6 +9,16 @@
 
 <h1>Outputs</h1>
 
-<img src="output1.jpg">
-<img src="output2.jpg">
-<img src="output3.jpg">
+<table>
+  <tr>
+    <td style="border-right: 2px solid black; padding-right: 10px;">
+      <img src='output1.jpg' width="400">
+    </td>
+    <td style="padding-left: 10px;">
+      <img src='output2.jpg' width="400">
+    </td>
+    <td style="padding-left: 10px;">
+      <img src='output3.jpg' width="400">
+    </td>
+  </tr>
+</table>
